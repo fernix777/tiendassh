@@ -1,0 +1,118 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+span {
+  letter-spacing: 5px;
+  font-size: 18px;
+  padding: 5px;
+  margin: 5px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: inherit;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+p {
+  margin: 10px;
+  padding-left: 2px;
+  justify-content: center;
+}
+
+.tabla-estilizada {
+  border: 1px solid #ccc;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  background-color: #f0f0f0;
+}
+
+.tabla-estilizada th, .tabla-estilizada td {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.titulo-de-la-pagina{
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #333;
+}
+h3{
+  margin: 10px;
+  padding-left: 2px;
+}
+.iconos-sociales{
+ display: inline-block;
+ margin: 0 10px;
+ position: relative;
+ left: 550px;
+}
+
+.menu-navegable{
+  display: inline-block;
+  margin: 0 10px;
+  position: relative;
+  left: 550px;
+}
+
+.redes{
+  font-size: 22px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+span{
+  position: relative;
+  left: -200px;
+}
+span:not(:first-child) {
+  margin-left: 40px;
+}
+.servicios{
+  position: relative;
+  left: 200px;
+}
+
+
+.tarjetas{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px;
+  width: 100%;
+}
+
+.tarjeta{
+  margin: 10px;
+  width: calc(33.33% - 20px);
+}
+
+
+.imagenes-servidores{
+  width: 300px;
+  height: 150px;
+}
+
+
+.tarjeta1, .tarjeta2, .tarjeta3{
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.tarjeta1 h3, .tarjeta2 h3, .tarjeta3 h3{
+  border-bottom: 2px solid #333;
+}
+
+.tarjeta1 p, .tarjeta2 p, .tarjeta3 p{
+  border-left: 2px solid #333;
+  padding-left: 10px;
+}
